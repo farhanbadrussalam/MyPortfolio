@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="dist/aos/aos.css">
     <link rel="stylesheet" href="src/css/style.css">
     
+    <script src="dist/jquery/jquery-3.6.0.js"></script>
     <script src="dist/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="dist/particleJS/particles.js"></script>
   </head>
@@ -210,73 +211,73 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/eppkm/01.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/eppkm/01.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('eppkm')"/>
                           <div class="card-body">
                             <h5 class="card-title">E-PPKM (Elektronik Proses Pengambilan Keputusan Militer)</h5>
-                            <p class="card-text">Aplikasi E-PPKM merupakan aplikasi yang dapat membantu Komando Pembinaan Doktrin, Pendidikan dan Latihan TNI Angkatan Laut dalam pembuatan skenario latihan secara digital</p>
+                            <p class="card-text fw-light fs-6">The E-PPKM application is an application that can assist the Navy's Doctrine, Education and Training Command in creating digital training scenarios</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/Crime Analysis/01 Tampilan Awal.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/Crime Analysis/01 Tampilan Awal.png" class="card-img-top" alt="maxxCBT" title="view image" onclick="showImagePortfolio('crime')"/>
                           <div class="card-body">
                             <h5 class="card-title">Crime Analysis</h5>
-                            <p class="card-text">Aplikasi yang bisa menghitung ada berapa banyak kejahatan di suatu daerah pada waktu tertentu</p>
+                            <p class="card-text fw-light fs-6">An application that can calculate how many crimes there are in an area at any given time</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/geo_intelligence/01 Utama.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/geo_intelligence/01 Utama.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('intelligence')"/>
                           <div class="card-body">
                             <h5 class="card-title">Geospatial Intelligence</h5>
-                            <p class="card-text">Merupakan aplikasi standar GIS (Geographic Information System)</p>
+                            <p class="card-text fw-light fs-6">Is a standard application of GIS (Geographic Information System)</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                            <img src="src/public/project/maxxCBT/01 Tampilan halaman awal.png" class="card-img-top" alt="maxxCBT" />
+                            <img src="src/public/project/maxxCBT/01 Tampilan halaman awal.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('maxxcbt')"/>
                             <div class="card-body">
                               <h5 class="card-title">Aplikasi Rekrutmen Test MaxxCBT</h5>
-                              <p class="card-text">Aplikasi rekrutmen tahap test online untuk mengetahui kemampuan calon karyawan</p>
+                              <p class="card-text fw-light fs-6">Online test stage recruitment application to determine the ability of prospective employees</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/knowledge_app/01 tampilan landingpage.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/knowledge_app/01 tampilan landingpage.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('knowledge')"/>
                           <div class="card-body">
                             <h5 class="card-title">Sistem Informasi Knowledge Product</h5>
-                            <p class="card-text">Memberikan list product yang ada di PT Kitoshindo Internasional Biotech beserta informasi dari product tersebut</p>
+                            <p class="card-text fw-light fs-6">Provide a list of products at PT Kitoshindo International Biotech along with information on these products</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/SI_produksi/01 dashboard.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/SI_produksi/01 dashboard.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('si_produksi')"/>
                           <div class="card-body">
                             <h5 class="card-title">Sistem Informasi Produksi</h5>
-                            <p class="card-text">Untuk mencatat panjang kain yang sudah di produksi dan untuk mengetahui ada berapa kain yang bagus dan tidak</p>
+                            <p class="card-text fw-light fs-6">To record the length of the fabric that has been produced and to find out how many fabrics are good and what are not</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/pushidrosal/Halaman Utama 1.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/pushidrosal/Halaman Utama 1.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('pushidrosal')"/>
                           <div class="card-body">
                             <h5 class="card-title">Geospatial Pushidrosal</h5>
-                            <p class="card-text">Aplikasi portal untuk geospatial system seperti E-Collaboration, E-Navigation dan masih banyak lagi</p>
+                            <p class="card-text fw-light fs-6">Portal application for geospatial systems such as E-Collaboration, E-Navigation and many more</p>
                           </div>
                         </div>
                     </div>
                     <div class="swiper-slide" data-aos="fade-down" data-aos-duration="2000">
                         <div class="card m-2" style="width: 20rem">
-                          <img src="src/public/project/slog_polri/slog_1.png" class="card-img-top" alt="maxxCBT" />
+                          <img src="src/public/project/slog_polri/slog_1.png" class="card-img-top" alt="maxxCBT" onclick="showImagePortfolio('slog')"/>
                           <div class="card-body">
                             <h5 class="card-title">Slog Polri</h5>
-                            <p class="card-text">Aplikasi untuk mengetahui lokasi dan stok gudang yang ada di setiap Polres</p>
+                            <p class="card-text fw-light fs-6">Application to find out the location and stock of warehouses in each Polres</p>
                           </div>
                         </div>
                     </div>
@@ -288,6 +289,24 @@
         </div>
       </div>
     </section>
+
+    <div class="modal fade" id="modalFullImage" tabindex="-1" aria-labelledby="modalFullImageLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="swiper mySwiperModal">
+                    <div class="swiper-wrapper w-100" id="img-swiper">
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Section Contacts -->
     <section id="contact">
